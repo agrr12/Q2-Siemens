@@ -3,14 +3,14 @@ Desenvolva um programa que implementa e utiliza a função ConcatERemove(s,t,k).
 
 ## Testagem e Validação
 
-O código foi desenvolvido com a sintaxe de JAVA. No arquivo enviado, já providenciei um método main pronto para execução. O método main estrutura a entrada conforme especificado no problema. Declaro três variáveis, cada uma correspondendo a uma linha da entrada e depois unifico a três em uma única entrada. Cada linha é declarada em uma variável para facilitar a testagem.
+O código foi desenvolvido com a sintaxe de JAVA. No arquivo enviado (a classe Conversor.java), já providenciei um método main pronto para execução. O método main estrutura a entrada conforme especificado no problema. Declaro três variáveis, cada uma correspondendo a uma linha da entrada e depois unifico a três em uma única entrada. Cada linha da entrada é representada por uma variável para facilitar a testagem.
 ```java
 		String linha1 = "aba"; //String inicial
 		String linha2 = "aba"; //String desejada
 		String linha3 = "7"; //número de operações
 		String input = linha1+"\n"+linha2+"\n"+linha3;
 ```
-O problema indica limitações para os inputs. Para tal, criei o método verificarInput responsável para verificar se os parâmetros passados estão de acordo com as limitações do problema. Conforme o código presente no método main, apenas inputs com valores válidos levarão à execução da função ConcatERemove. Nesse sentido, para testagem da função, basta que os valores variáveis linha1, linha2 e linha3, presentes no método main, sejam alterados para valores diferentes, mas válidos conforme as limitações do problema.
+O problema indica limitações para os inputs. Para tal, criei o método verificarInput responsável para verificar se os parâmetros passados estão de acordo com as limitações do problema. Conforme o código presente no método main, apenas inputs com valores válidos levarão à execução da função ConcatERemove. Nesse sentido, para testagem da função, basta que os valores variáveis linha1, linha2 e linha3, presentes no método main, sejam alterados para valores diferentes, mas válidos conforme as limitações do problema. Para ignorar a validação dos valores, basta que o método main contenha apenas a chamada do método ConcatERemove com os parâmetros desejados.
 
 ## Comentários
 A operação da função tem como base duas possibilidades gerais:
